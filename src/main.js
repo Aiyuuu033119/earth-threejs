@@ -4,10 +4,10 @@ import * as dat from "dat.gui";
 
 // Texture Loader
 const textureLoader = new THREE.TextureLoader();
-const normalTexture = textureLoader.load("./src/texture/earthMap.jpg");
-const bumbTexture = textureLoader.load("./src/texture/mapBumb.jpg");
-const cloudTexture = textureLoader.load("./src/texture/cloudMap.png");
-const galaxyTexture = textureLoader.load("./src/texture/galaxyMap.png");
+const normalTexture = textureLoader.load("src/texture/earthMap.jpg");
+const bumbTexture = textureLoader.load("src/texture/mapBumb.jpg");
+const cloudTexture = textureLoader.load("src/texture/cloudMap.png");
+const galaxyTexture = textureLoader.load("src/texture/galaxyMap.png");
 
 // Debug
 const gui = new dat.GUI();
