@@ -119,7 +119,7 @@ renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 const tick = () => {
   // Update objects
   sphere.rotation.y -= 0.001;
-  galaxy.rotation.y -= 0.001;
+  galaxy.rotation.y -= 0.0005;
   cloud.rotation.y += 0.0005;
 
   // Render
