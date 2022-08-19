@@ -10,7 +10,7 @@ const cloudTexture = textureLoader.load("./assets/texture/cloudMap.png");
 const galaxyTexture = textureLoader.load("./assets/texture/galaxyMap.png");
 
 // Debug
-const gui = new dat.GUI();
+// const gui = new dat.GUI();
 
 // Canvas
 const canvas = document.querySelector("canvas.earth-webgl");
